@@ -1,0 +1,14 @@
+<html>
+    <body>
+         <form action="/guestbook" method="POST">
+            Name:<br>
+            <input type="text" name="name">
+            <br>
+            Message:<br>
+            <textarea name="message" id="message" rows="10" cols="50"></textarea>
+            <!--<input type="text" name="message" autocomplete="off">-->
+            <br><br>
+            <input type="submit" value="Submit">
+         </form>
+    </body>
+</html>
